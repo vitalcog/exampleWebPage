@@ -13,4 +13,159 @@ Button Text: #F2F1E8
 Button Text (Hover): #FFFFFF
 Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343
+
+  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', sans-serif;
 */
+
+body {
+  height: auto;
+  background-color: #F2F1E8
+}
+
+.emblem {
+  float: left;
+  height: 80px;
+  width: 80px;
+  background-color: #FFFFFF;
+  background-image: url("../week-one-project/images/optimized/bent-creek-logo.png");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  padding: auto;
+  background-position: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 0;
+}
+/* navigation bar */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #FFFFFF;
+  height: 80px;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+  color: #2B2F26;
+  margin: auto 35px;
+}
+nav a:link {
+  color: #2B2F26;
+}
+nav a:hover {
+  color: #CD5D67;
+}
+nav a:active {
+  color: #968772;
+}
+/* end navigation bar */
+
+header {
+  font-family: 'Merriweather', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header1 {
+  font-size: 4em;
+  margin-bottom: 0;
+}
+#header2 {
+  font-weight: lighter;
+  font-size: 2.2em;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+/*
+///
+////
+------ Begin main page product picture menu
+*/
+section {
+  height: 520px;
+  width: 1250px;
+}
+
+.pic_row_one {
+  display: flex;
+  justify-content: space-around;
+  height: 55%;
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-left: .5%;
+  margin-right: .5%;
+}
+.pic_row_one div {
+}
+
+#product_1 {
+  width: 55%;
+  background-image: url("../week-one-project/images/optimized/product-1.jpg");
+  background-size: 100%;
+}
+
+#product_2 {
+  width: 20%;
+  background-image: url("../week-one-project/images/optimized/product-2.jpg");
+  background-size: 100%;
+}
+
+#product_3 {
+  width: 20%;
+  background-image: url("../week-one-project/images/optimized/product-3.jpg");
+  background-size: 100%;
+}
+
+.pic_row_two {
+  display: flex;
+  justify-content: space-around;
+  height: 35%;
+  margin-left: .5%;
+  margin-right: .5%;
+}
+.pic_row_two div {
+}
+
+#product_4 {
+  background-image: url("../week-one-project/images/optimized/product-4.jpg");
+  width: 20%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#product_5 {
+  background-image: url("../week-one-project/images/optimized/product-5.jpg");
+  width: 20%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#product_6 {
+  background-image: url("../week-one-project/images/optimized/product-6.jpg");
+  width: 34%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#product_7 {
+  background-image: url("../week-one-project/images/optimized/product-7.jpg");
+  width: 20%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+/*
+------ end product picture menu
+///
+*/
+
+footer {
+  margin-top: -5px;
+  height: 80px;
+  background-color: #2B2F26;
+}
+
+footer>p {
+}
