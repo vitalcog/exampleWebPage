@@ -32,13 +32,28 @@
         </h3>
         <p class=sign_up> Stay up to date with events, activities, news and specials
         </p>
-        <input type="text">
-        <input type="email">
-        <button> Submit
+        <input type="text" id=nameInput placeholder="Name">
+        <input type="email" id=emailInput placeholder="Email">
+        <button id=signupButton> Submit
         </button>
       </form>
     </div>
 
-
+    <script type="text/javascript">
+      var nameInput = document.getElementById('nameInput');
+      var emailInput = document.getElementById('emailInput');
+      var signupButton = document.getElementById('signupButton');
+      signupButton.addEventListener('click', function(e) {
+        var nameVal = nameInput.value;
+        var emailVal = emailInput.value;
+        if (nameVal && emailVal) {
+          alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
+          nameInput.value = "";
+          emailInput.value = "";
+        } else {
+          alert('We would love for you to sign up, please provide both your name and email address.');
+        }
+      });
+    </script>
     </body>
   </html>
