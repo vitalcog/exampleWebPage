@@ -81,108 +81,16 @@ header {
   align-items: center;
 }
 
-/*
-------
---------       Begin "About" Page Styling
----------- */
-.about {
-  margin-left: 21%;
-  margin-right: 21%;
+footer {
+  margin-top: -5px;
+  height: 80px;
+  background-color: #2B2F26;
 }
 
-#birdhouse {
-  float: left;
-  background-image: url(../week-one-project/images/optimized/birdhouse.jpg);
-  height: 150px;
-  width: 200px;
-  margin-right: 50px;
-  margin-bottom: 20px;
-  background-size: contain;
-  background-repeat: no-repeat;
+footer>p {
+  color: #F2F1E8;
+  padding: 30px;
 }
-#about_pic {
-  height: 300px;
-  width: 100%;
-  background-image: url(../week-one-project/images/optimized/background-3.jpg);
-  background-size: cover;
-  background-repeat: repeat;
-  background-position: center;
-  background-attachment: fixed;
-}
-
-#about_header {
-  background-color: #F2F1E8;
-  height: 100px;
-  padding-top: 70px;
-  margin-bottom: 50px;
-  font-size: 2.5em;
-}
-
-  h2.about {
-  font-weight: lighter;
-  font-size: 2.3em;
-  font-weight: ;
-}
-
-#click {
-  text-decoration: none;
-  color: #968772;
-}
-
-.about p {
-  line-height: 1.6;
-  font-size: 1.2em;
-}
-
-.snippit {
-  padding-left: 10px;
-  font-weight: lighter;
-  border-left: solid #968772 3px;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-#snippit_2 {
-  float: right;
-  height: 300px;
-  width: 250px;
-  margin-left: 5%;
-}
-
-#snippit_2 img {
-  height: 180px;
-  width: 250px;
-}
-
-#clearfix {
-  clear: both;
-}
-
-table.about {
-  height: 200px;
-  font-size: 1.2em;
-  width: 50%;
-  border: solid thin;
-  border-spacing: 0;
-  margin-bottom: 45px;
-}
-
-th, td {
-  padding-left: 10px;
-  border: solid thin;
-}
-
-tr:nth-child(even) {
-  background-color: #f4e0c8;
-}
-
-#about_header h3 {
-  font-weight: lighter;
-}
-
-/* ---------   End "About" Page Styling
----------
------ */
 
 #header1 {
   font-size: 4em;
@@ -319,13 +227,169 @@ section {
 ///
 */
 
-footer {
-  margin-top: -5px;
-  height: 80px;
-  background-color: #2B2F26;
+/*
+------
+--------       Begin "About" Page Styling
+---------- */
+
+.about {
+  margin-left: 21%;
+  margin-right: 21%;
 }
 
-footer>p {
-  color: #F2F1E8;
-  padding: 30px;
+#birdhouse {
+  float: left;
+  background-image: url(../week-one-project/images/optimized/birdhouse.jpg);
+  height: 150px;
+  width: 200px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#about_pic {
+  height: 300px;
+  width: 100%;
+  background-image: url(../week-one-project/images/optimized/background-3.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#about_header {
+  background-color: #F2F1E8;
+  height: 100px;
+  padding-top: 70px;
+  margin-bottom: 50px;
+  font-size: 2.5em;
+}
+
+  h2.about {
+  font-weight: lighter;
+  font-size: 2.3em;
+  font-weight: ;
+}
+
+#click {
+  text-decoration: none;
+  color: #968772;
+}
+
+.about p {
+  line-height: 1.6;
+  font-size: 1.2em;
+}
+
+.snippit {
+  padding-left: 10px;
+  font-weight: lighter;
+  border-left: solid #968772 3px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#snippit_2 {
+  float: right;
+  height: 300px;
+  width: 250px;
+  margin-left: 5%;
+}
+
+#snippit_2 img {
+  height: 180px;
+  width: 250px;
+}
+
+#clearfix {
+  clear: both;
+}
+
+table.about {
+  height: 200px;
+  font-size: 1.2em;
+  width: 50%;
+  border: solid thin;
+  border-spacing: 0;
+  margin-bottom: 45px;
+}
+
+th, td {
+  padding-left: 10px;
+  border: solid thin;
+}
+
+tr:nth-child(even) {
+  background-color: #f4e0c8;
+}
+
+#about_header h3 {
+  font-weight: lighter;
+}
+
+/* ---------   End "About" Page Styling
+---------
+----- */
+
+/*
+----
+    -----    Begin Newsletter Page Styling   ---- */
+
+div.new_l {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(../week-one-project/images/optimized/background-2.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 410px;
+  width: 50%;
+  margin-top: 5%;
+  padding-top: 0;
+  align-self: center;
+  background-color: white;
+  border-radius: 6px;
+}
+
+h3.sign_up {
+  font-size: 2em;
+  font-weight: lighter;
+  align-self: center;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+p.sign_up {
+  margin-top: 15px;
+  margin-bottom: 0;
+  align-self: center;
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+input {
+  font-size: 1.5em;
+  width: 75%;
+  border: none;
+  border-bottom: solid #f4e0c8;
+  margin-top: 8%;
+  align-self: center;
+}
+
+button {
+  font-size: 1.4em;
+  color: white;
+  border-radius: 4px;
+  background-color: #968772;
+  height: 50px;
+  width: 200px;
+  margin-top: 5%;
+  align-self: center;
 }
