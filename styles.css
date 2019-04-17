@@ -134,19 +134,19 @@ section {
 
 #product_1 {
   width: 55%;
-  background-image: url("../week-one-project/images/optimized/product-1.jpg");
+  background-image: url("../exampleWebPage/images/optimized/product-1.jpg");
   background-size: 100%;
 }
 
 #product_2 {
   width: 20%;
-  background-image: url("../week-one-project/images/optimized/product-2.jpg");
+  background-image: url("../exampleWebPage/images/optimized/product-2.jpg");
   background-size: 100%;
 }
 
 #product_3 {
   width: 20%;
-  background-image: url("../week-one-project/images/optimized/product-3.jpg");
+  background-image: url("../exampleWebPage/images/optimized/product-3.jpg");
   background-size: 100%;
 }
 
@@ -168,28 +168,28 @@ section {
 }
 
 #product_4 {
-  background-image: url("../week-one-project/images/optimized/product-4.jpg");
+  background-image: url("../exampleWebPage/images/optimized/product-4.jpg");
   width: 20%;
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 #product_5 {
-  background-image: url("../week-one-project/images/optimized/product-5.jpg");
+  background-image: url("../exampleWebPage/images/optimized/product-5.jpg");
   width: 20%;
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 #product_6 {
-  background-image: url("../week-one-project/images/optimized/product-6.jpg");
+  background-image: url("../exampleWebPage/images/optimized/product-6.jpg");
   width: 34%;
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 #product_7 {
-  background-image: url("../week-one-project/images/optimized/product-7.jpg");
+  background-image: url("../exampleWebPage/images/optimized/product-7.jpg");
   width: 20%;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -239,7 +239,7 @@ section {
 
 #birdhouse {
   float: left;
-  background-image: url(../week-one-project/images/optimized/birdhouse.jpg);
+  background-image: url(../exampleWebPage/images/optimized/birdhouse.jpg);
   height: 150px;
   width: 200px;
   margin-right: 50px;
@@ -250,7 +250,7 @@ section {
 #about_pic {
   height: 300px;
   width: 100%;
-  background-image: url(../week-one-project/images/optimized/background-3.jpg);
+  background-image: url(../exampleWebPage/images/optimized/background-3.jpg);
   background-size: cover;
   background-repeat: repeat;
   background-position: center;
@@ -340,7 +340,7 @@ div.new_l {
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-  background-image: url(../week-one-project/images/optimized/background-2.jpg);
+  background-image: url(../exampleWebPage/images/optimized/background-2.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
 }
